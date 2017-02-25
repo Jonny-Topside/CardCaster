@@ -1,0 +1,1558 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 7
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SkyboxMaterial: {fileID: 2100000, guid: 881432686d655374886e9951f7108c65, type: 2}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 7
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 4
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 0
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_DirectLightInLightProbes: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 1024
+    m_ReflectionCompression: 2
+  m_LightingDataAsset: {fileID: 0}
+  m_RuntimeCPUUsage: 25
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    accuratePlacement: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1001 &58148872
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 469328, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 469328, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -.0130000003
+      objectReference: {fileID: 0}
+    - target: {fileID: 469328, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 469328, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 469328, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -5.68434189e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 469328, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -5.68434189e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 469328, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 469328, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+  m_RootGameObject: {fileID: 338973648}
+  m_IsPrefabParent: 0
+--- !u!1 &76501741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 76501743}
+  - component: {fileID: 76501742}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &76501742
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 76501741}
+  m_Enabled: 1
+  serializedVersion: 7
+  m_Type: 1
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &76501743
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 76501741}
+  m_LocalRotation: {x: 0.40821794, y: -0.23456973, z: 0.109381676, w: 0.87542605}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &214145205
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 154018, guid: 95077ac1a27428f4cb087e309b312fdf, type: 2}
+  m_PrefabInternal: {fileID: 1736501199}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 214145206}
+  - component: {fileID: 214145208}
+  - component: {fileID: 214145207}
+  m_Layer: 0
+  m_Name: Bowie_Knife_Handle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &214145206
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 416126, guid: 95077ac1a27428f4cb087e309b312fdf, type: 2}
+  m_PrefabInternal: {fileID: 1736501199}
+  m_GameObject: {fileID: 214145205}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.01590256, y: 0, z: 0}
+  m_LocalScale: {x: 6.9125037, y: 6.9125037, z: 6.9125037}
+  m_Children: []
+  m_Father: {fileID: 2135136271}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &214145207
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2310186, guid: 95077ac1a27428f4cb087e309b312fdf,
+    type: 2}
+  m_PrefabInternal: {fileID: 1736501199}
+  m_GameObject: {fileID: 214145205}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 454402b38f9c0ca4c9b765f12c71585a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &214145208
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3370188, guid: 95077ac1a27428f4cb087e309b312fdf,
+    type: 2}
+  m_PrefabInternal: {fileID: 1736501199}
+  m_GameObject: {fileID: 214145205}
+  m_Mesh: {fileID: 4300004, guid: 3a5c3b84fb58690419b53811ad02eaa6, type: 3}
+--- !u!1 &338973648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 170054, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+  m_PrefabInternal: {fileID: 58148872}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 338973650}
+  - component: {fileID: 338973649}
+  m_Layer: 0
+  m_Name: Bowie_Knife_v2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &338973649
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9534780, guid: 8c377692db9f03049930e2fd87e71877,
+    type: 2}
+  m_PrefabInternal: {fileID: 58148872}
+  m_GameObject: {fileID: 338973648}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 3a5c3b84fb58690419b53811ad02eaa6, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!4 &338973650
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 469328, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+  m_PrefabInternal: {fileID: 58148872}
+  m_GameObject: {fileID: 338973648}
+  m_LocalRotation: {x: 0.7071067, y: -5.684342e-14, z: -5.684342e-14, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: -0.013, z: 0}
+  m_LocalScale: {x: 4.0951185, y: 4.095118, z: 4.095118}
+  m_Children:
+  - {fileID: 2091007058}
+  - {fileID: 402038951}
+  - {fileID: 1822845494}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &362182262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 123202, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+  m_PrefabInternal: {fileID: 611472497}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 362182263}
+  - component: {fileID: 362182265}
+  - component: {fileID: 362182264}
+  m_Layer: 0
+  m_Name: Bowie_Knife_Pomel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &362182263
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 403772, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+  m_PrefabInternal: {fileID: 611472497}
+  m_GameObject: {fileID: 362182262}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.01590256, y: 0, z: 0}
+  m_LocalScale: {x: 6.9125037, y: 6.9125037, z: 6.9125037}
+  m_Children: []
+  m_Father: {fileID: 1245596360}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &362182264
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2324042, guid: 8c377692db9f03049930e2fd87e71877,
+    type: 2}
+  m_PrefabInternal: {fileID: 611472497}
+  m_GameObject: {fileID: 362182262}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 454402b38f9c0ca4c9b765f12c71585a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &362182265
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300258, guid: 8c377692db9f03049930e2fd87e71877,
+    type: 2}
+  m_PrefabInternal: {fileID: 611472497}
+  m_GameObject: {fileID: 362182262}
+  m_Mesh: {fileID: 4300002, guid: 3a5c3b84fb58690419b53811ad02eaa6, type: 3}
+--- !u!1 &402038950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 147626, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+  m_PrefabInternal: {fileID: 58148872}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 402038951}
+  - component: {fileID: 402038953}
+  - component: {fileID: 402038952}
+  m_Layer: 0
+  m_Name: Bowie_Knife_knife
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &402038951
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 494734, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+  m_PrefabInternal: {fileID: 58148872}
+  m_GameObject: {fileID: 402038950}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.008703025, y: 0, z: 0}
+  m_LocalScale: {x: 6.9125037, y: 6.9125037, z: 6.9125037}
+  m_Children: []
+  m_Father: {fileID: 338973650}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &402038952
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2327788, guid: 8c377692db9f03049930e2fd87e71877,
+    type: 2}
+  m_PrefabInternal: {fileID: 58148872}
+  m_GameObject: {fileID: 402038950}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: ac0b7a91900913f04ad101666f75ebc4, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &402038953
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3308768, guid: 8c377692db9f03049930e2fd87e71877,
+    type: 2}
+  m_PrefabInternal: {fileID: 58148872}
+  m_GameObject: {fileID: 402038950}
+  m_Mesh: {fileID: 4300000, guid: 3a5c3b84fb58690419b53811ad02eaa6, type: 3}
+--- !u!1001 &611472497
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 469328, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.57000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 469328, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .419
+      objectReference: {fileID: 0}
+    - target: {fileID: 469328, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 469328, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 469328, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -5.68434189e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 469328, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -5.68434189e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 469328, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 469328, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 170054, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+      propertyPath: m_Name
+      value: Bowie_Knife_v2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2324042, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 454402b38f9c0ca4c9b765f12c71585a, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+  m_RootGameObject: {fileID: 1245596358}
+  m_IsPrefabParent: 0
+--- !u!1 &818467349
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 181676, guid: 95077ac1a27428f4cb087e309b312fdf, type: 2}
+  m_PrefabInternal: {fileID: 1736501199}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 818467350}
+  - component: {fileID: 818467352}
+  - component: {fileID: 818467351}
+  m_Layer: 0
+  m_Name: Bowie_Knife_knife
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &818467350
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400568, guid: 95077ac1a27428f4cb087e309b312fdf, type: 2}
+  m_PrefabInternal: {fileID: 1736501199}
+  m_GameObject: {fileID: 818467349}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.008703025, y: 0, z: 0}
+  m_LocalScale: {x: 6.9125037, y: 6.9125037, z: 6.9125037}
+  m_Children: []
+  m_Father: {fileID: 2135136271}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &818467351
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2317462, guid: 95077ac1a27428f4cb087e309b312fdf,
+    type: 2}
+  m_PrefabInternal: {fileID: 1736501199}
+  m_GameObject: {fileID: 818467349}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 454402b38f9c0ca4c9b765f12c71585a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &818467352
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3334738, guid: 95077ac1a27428f4cb087e309b312fdf,
+    type: 2}
+  m_PrefabInternal: {fileID: 1736501199}
+  m_GameObject: {fileID: 818467349}
+  m_Mesh: {fileID: 4300000, guid: 3a5c3b84fb58690419b53811ad02eaa6, type: 3}
+--- !u!1 &927406066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 147626, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+  m_PrefabInternal: {fileID: 611472497}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 927406067}
+  - component: {fileID: 927406069}
+  - component: {fileID: 927406068}
+  m_Layer: 0
+  m_Name: Bowie_Knife_knife
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &927406067
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 494734, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+  m_PrefabInternal: {fileID: 611472497}
+  m_GameObject: {fileID: 927406066}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.008703025, y: 0, z: 0}
+  m_LocalScale: {x: 6.9125037, y: 6.9125037, z: 6.9125037}
+  m_Children: []
+  m_Father: {fileID: 1245596360}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &927406068
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2327788, guid: 8c377692db9f03049930e2fd87e71877,
+    type: 2}
+  m_PrefabInternal: {fileID: 611472497}
+  m_GameObject: {fileID: 927406066}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: ac0b7a91900913f04ad101666f75ebc4, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &927406069
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3308768, guid: 8c377692db9f03049930e2fd87e71877,
+    type: 2}
+  m_PrefabInternal: {fileID: 611472497}
+  m_GameObject: {fileID: 927406066}
+  m_Mesh: {fileID: 4300000, guid: 3a5c3b84fb58690419b53811ad02eaa6, type: 3}
+--- !u!1 &1144587241
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 123202, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+  m_PrefabInternal: {fileID: 1644237011}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1144587242}
+  - component: {fileID: 1144587244}
+  - component: {fileID: 1144587243}
+  m_Layer: 0
+  m_Name: Bowie_Knife_Pomel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1144587242
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 403772, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+  m_PrefabInternal: {fileID: 1644237011}
+  m_GameObject: {fileID: 1144587241}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.01590256, y: 0, z: 0}
+  m_LocalScale: {x: 6.9125037, y: 6.9125037, z: 6.9125037}
+  m_Children: []
+  m_Father: {fileID: 1656421392}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1144587243
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2324042, guid: 8c377692db9f03049930e2fd87e71877,
+    type: 2}
+  m_PrefabInternal: {fileID: 1644237011}
+  m_GameObject: {fileID: 1144587241}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: ac0b7a91900913f04ad101666f75ebc4, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1144587244
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300258, guid: 8c377692db9f03049930e2fd87e71877,
+    type: 2}
+  m_PrefabInternal: {fileID: 1644237011}
+  m_GameObject: {fileID: 1144587241}
+  m_Mesh: {fileID: 4300002, guid: 3a5c3b84fb58690419b53811ad02eaa6, type: 3}
+--- !u!1 &1183196544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 197090, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+  m_PrefabInternal: {fileID: 1644237011}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1183196545}
+  - component: {fileID: 1183196547}
+  - component: {fileID: 1183196546}
+  m_Layer: 0
+  m_Name: Bowie_Knife_Handle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1183196545
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 416222, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+  m_PrefabInternal: {fileID: 1644237011}
+  m_GameObject: {fileID: 1183196544}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.01590256, y: 0, z: 0}
+  m_LocalScale: {x: 6.9125037, y: 6.9125037, z: 6.9125037}
+  m_Children: []
+  m_Father: {fileID: 1656421392}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1183196546
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2394928, guid: 8c377692db9f03049930e2fd87e71877,
+    type: 2}
+  m_PrefabInternal: {fileID: 1644237011}
+  m_GameObject: {fileID: 1183196544}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 454402b38f9c0ca4c9b765f12c71585a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1183196547
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3357328, guid: 8c377692db9f03049930e2fd87e71877,
+    type: 2}
+  m_PrefabInternal: {fileID: 1644237011}
+  m_GameObject: {fileID: 1183196544}
+  m_Mesh: {fileID: 4300004, guid: 3a5c3b84fb58690419b53811ad02eaa6, type: 3}
+--- !u!1 &1192576338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 125372, guid: 95077ac1a27428f4cb087e309b312fdf, type: 2}
+  m_PrefabInternal: {fileID: 1736501199}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1192576339}
+  - component: {fileID: 1192576341}
+  - component: {fileID: 1192576340}
+  m_Layer: 0
+  m_Name: Bowie_Knife_Pomel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1192576339
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 408672, guid: 95077ac1a27428f4cb087e309b312fdf, type: 2}
+  m_PrefabInternal: {fileID: 1736501199}
+  m_GameObject: {fileID: 1192576338}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.01590256, y: 0, z: 0}
+  m_LocalScale: {x: 6.9125037, y: 6.9125037, z: 6.9125037}
+  m_Children: []
+  m_Father: {fileID: 2135136271}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1192576340
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2316632, guid: 95077ac1a27428f4cb087e309b312fdf,
+    type: 2}
+  m_PrefabInternal: {fileID: 1736501199}
+  m_GameObject: {fileID: 1192576338}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 454402b38f9c0ca4c9b765f12c71585a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1192576341
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3343922, guid: 95077ac1a27428f4cb087e309b312fdf,
+    type: 2}
+  m_PrefabInternal: {fileID: 1736501199}
+  m_GameObject: {fileID: 1192576338}
+  m_Mesh: {fileID: 4300002, guid: 3a5c3b84fb58690419b53811ad02eaa6, type: 3}
+--- !u!1 &1245596358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 170054, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+  m_PrefabInternal: {fileID: 611472497}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1245596360}
+  - component: {fileID: 1245596359}
+  m_Layer: 0
+  m_Name: Bowie_Knife_v2 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &1245596359
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9534780, guid: 8c377692db9f03049930e2fd87e71877,
+    type: 2}
+  m_PrefabInternal: {fileID: 611472497}
+  m_GameObject: {fileID: 1245596358}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 3a5c3b84fb58690419b53811ad02eaa6, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!4 &1245596360
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 469328, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+  m_PrefabInternal: {fileID: 611472497}
+  m_GameObject: {fileID: 1245596358}
+  m_LocalRotation: {x: 0.7071067, y: -5.684342e-14, z: -5.684342e-14, w: 0.7071068}
+  m_LocalPosition: {x: -1.57, y: 0.419, z: 0}
+  m_LocalScale: {x: 4.0951185, y: 4.095118, z: 4.095118}
+  m_Children:
+  - {fileID: 1516955136}
+  - {fileID: 927406067}
+  - {fileID: 362182263}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1271821339
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 147626, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+  m_PrefabInternal: {fileID: 1644237011}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1271821340}
+  - component: {fileID: 1271821342}
+  - component: {fileID: 1271821341}
+  m_Layer: 0
+  m_Name: Bowie_Knife_knife
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1271821340
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 494734, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+  m_PrefabInternal: {fileID: 1644237011}
+  m_GameObject: {fileID: 1271821339}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.008703025, y: 0, z: 0}
+  m_LocalScale: {x: 6.9125037, y: 6.9125037, z: 6.9125037}
+  m_Children: []
+  m_Father: {fileID: 1656421392}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1271821341
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2327788, guid: 8c377692db9f03049930e2fd87e71877,
+    type: 2}
+  m_PrefabInternal: {fileID: 1644237011}
+  m_GameObject: {fileID: 1271821339}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: ac0b7a91900913f04ad101666f75ebc4, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1271821342
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3308768, guid: 8c377692db9f03049930e2fd87e71877,
+    type: 2}
+  m_PrefabInternal: {fileID: 1644237011}
+  m_GameObject: {fileID: 1271821339}
+  m_Mesh: {fileID: 4300000, guid: 3a5c3b84fb58690419b53811ad02eaa6, type: 3}
+--- !u!1 &1437910782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1437910787}
+  - component: {fileID: 1437910786}
+  - component: {fileID: 1437910785}
+  - component: {fileID: 1437910784}
+  - component: {fileID: 1437910783}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1437910783
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1437910782}
+  m_Enabled: 1
+--- !u!124 &1437910784
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1437910782}
+  m_Enabled: 1
+--- !u!92 &1437910785
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1437910782}
+  m_Enabled: 1
+--- !u!20 &1437910786
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1437910782}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!4 &1437910787
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1437910782}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1516955135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 197090, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+  m_PrefabInternal: {fileID: 611472497}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1516955136}
+  - component: {fileID: 1516955138}
+  - component: {fileID: 1516955137}
+  m_Layer: 0
+  m_Name: Bowie_Knife_Handle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1516955136
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 416222, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+  m_PrefabInternal: {fileID: 611472497}
+  m_GameObject: {fileID: 1516955135}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.01590256, y: 0, z: 0}
+  m_LocalScale: {x: 6.9125037, y: 6.9125037, z: 6.9125037}
+  m_Children: []
+  m_Father: {fileID: 1245596360}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1516955137
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2394928, guid: 8c377692db9f03049930e2fd87e71877,
+    type: 2}
+  m_PrefabInternal: {fileID: 611472497}
+  m_GameObject: {fileID: 1516955135}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: ac0b7a91900913f04ad101666f75ebc4, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1516955138
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3357328, guid: 8c377692db9f03049930e2fd87e71877,
+    type: 2}
+  m_PrefabInternal: {fileID: 611472497}
+  m_GameObject: {fileID: 1516955135}
+  m_Mesh: {fileID: 4300004, guid: 3a5c3b84fb58690419b53811ad02eaa6, type: 3}
+--- !u!1001 &1644237011
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 469328, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.57000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 469328, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -.00499999989
+      objectReference: {fileID: 0}
+    - target: {fileID: 469328, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 469328, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 469328, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -5.68434189e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 469328, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -5.68434189e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 469328, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 469328, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 170054, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+      propertyPath: m_Name
+      value: Bowie_Knife_v2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394928, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 454402b38f9c0ca4c9b765f12c71585a, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+  m_RootGameObject: {fileID: 1656421390}
+  m_IsPrefabParent: 0
+--- !u!1 &1656421390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 170054, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+  m_PrefabInternal: {fileID: 1644237011}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1656421392}
+  - component: {fileID: 1656421391}
+  m_Layer: 0
+  m_Name: Bowie_Knife_v2 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &1656421391
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9534780, guid: 8c377692db9f03049930e2fd87e71877,
+    type: 2}
+  m_PrefabInternal: {fileID: 1644237011}
+  m_GameObject: {fileID: 1656421390}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 3a5c3b84fb58690419b53811ad02eaa6, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!4 &1656421392
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 469328, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+  m_PrefabInternal: {fileID: 1644237011}
+  m_GameObject: {fileID: 1656421390}
+  m_LocalRotation: {x: 0.7071067, y: -5.684342e-14, z: -5.684342e-14, w: 0.7071068}
+  m_LocalPosition: {x: -1.57, y: -0.005, z: 0}
+  m_LocalScale: {x: 4.0951185, y: 4.095118, z: 4.095118}
+  m_Children:
+  - {fileID: 1183196545}
+  - {fileID: 1271821340}
+  - {fileID: 1144587242}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1711378560
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 407192, guid: b5b137a8e29ba284fb9030a479347b08, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 14.752943
+      objectReference: {fileID: 0}
+    - target: {fileID: 407192, guid: b5b137a8e29ba284fb9030a479347b08, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -27.8491917
+      objectReference: {fileID: 0}
+    - target: {fileID: 407192, guid: b5b137a8e29ba284fb9030a479347b08, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -34.5266151
+      objectReference: {fileID: 0}
+    - target: {fileID: 407192, guid: b5b137a8e29ba284fb9030a479347b08, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 407192, guid: b5b137a8e29ba284fb9030a479347b08, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 407192, guid: b5b137a8e29ba284fb9030a479347b08, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 407192, guid: b5b137a8e29ba284fb9030a479347b08, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 407192, guid: b5b137a8e29ba284fb9030a479347b08, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b5b137a8e29ba284fb9030a479347b08, type: 2}
+  m_RootGameObject: {fileID: 1944714194}
+  m_IsPrefabParent: 0
+--- !u!1001 &1736501199
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 413496, guid: 95077ac1a27428f4cb087e309b312fdf, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 413496, guid: 95077ac1a27428f4cb087e309b312fdf, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .435000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 413496, guid: 95077ac1a27428f4cb087e309b312fdf, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 413496, guid: 95077ac1a27428f4cb087e309b312fdf, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 413496, guid: 95077ac1a27428f4cb087e309b312fdf, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -5.68434189e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 413496, guid: 95077ac1a27428f4cb087e309b312fdf, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -5.68434189e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 413496, guid: 95077ac1a27428f4cb087e309b312fdf, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 413496, guid: 95077ac1a27428f4cb087e309b312fdf, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 168154, guid: 95077ac1a27428f4cb087e309b312fdf, type: 2}
+      propertyPath: m_Name
+      value: Bowie_Knife (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 413496, guid: 95077ac1a27428f4cb087e309b312fdf, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 4.09511852
+      objectReference: {fileID: 0}
+    - target: {fileID: 413496, guid: 95077ac1a27428f4cb087e309b312fdf, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 4.09511805
+      objectReference: {fileID: 0}
+    - target: {fileID: 413496, guid: 95077ac1a27428f4cb087e309b312fdf, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 4.09511805
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 95077ac1a27428f4cb087e309b312fdf, type: 2}
+  m_RootGameObject: {fileID: 2135136269}
+  m_IsPrefabParent: 0
+--- !u!1 &1822845493
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 123202, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+  m_PrefabInternal: {fileID: 58148872}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1822845494}
+  - component: {fileID: 1822845496}
+  - component: {fileID: 1822845495}
+  m_Layer: 0
+  m_Name: Bowie_Knife_Pomel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1822845494
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 403772, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+  m_PrefabInternal: {fileID: 58148872}
+  m_GameObject: {fileID: 1822845493}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.01590256, y: 0, z: 0}
+  m_LocalScale: {x: 6.9125037, y: 6.9125037, z: 6.9125037}
+  m_Children: []
+  m_Father: {fileID: 338973650}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1822845495
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2324042, guid: 8c377692db9f03049930e2fd87e71877,
+    type: 2}
+  m_PrefabInternal: {fileID: 58148872}
+  m_GameObject: {fileID: 1822845493}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: ac0b7a91900913f04ad101666f75ebc4, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1822845496
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300258, guid: 8c377692db9f03049930e2fd87e71877,
+    type: 2}
+  m_PrefabInternal: {fileID: 58148872}
+  m_GameObject: {fileID: 1822845493}
+  m_Mesh: {fileID: 4300002, guid: 3a5c3b84fb58690419b53811ad02eaa6, type: 3}
+--- !u!1 &1944714194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1711378560}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1944714195}
+  m_Layer: 0
+  m_Name: Missing Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1944714195
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 1711378560}
+  m_GameObject: {fileID: 1944714194}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2091007057
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 197090, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+  m_PrefabInternal: {fileID: 58148872}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2091007058}
+  - component: {fileID: 2091007060}
+  - component: {fileID: 2091007059}
+  m_Layer: 0
+  m_Name: Bowie_Knife_Handle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2091007058
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 416222, guid: 8c377692db9f03049930e2fd87e71877, type: 2}
+  m_PrefabInternal: {fileID: 58148872}
+  m_GameObject: {fileID: 2091007057}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.01590256, y: 0, z: 0}
+  m_LocalScale: {x: 6.9125037, y: 6.9125037, z: 6.9125037}
+  m_Children: []
+  m_Father: {fileID: 338973650}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2091007059
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2394928, guid: 8c377692db9f03049930e2fd87e71877,
+    type: 2}
+  m_PrefabInternal: {fileID: 58148872}
+  m_GameObject: {fileID: 2091007057}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: ac0b7a91900913f04ad101666f75ebc4, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &2091007060
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3357328, guid: 8c377692db9f03049930e2fd87e71877,
+    type: 2}
+  m_PrefabInternal: {fileID: 58148872}
+  m_GameObject: {fileID: 2091007057}
+  m_Mesh: {fileID: 4300004, guid: 3a5c3b84fb58690419b53811ad02eaa6, type: 3}
+--- !u!1 &2135136269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 168154, guid: 95077ac1a27428f4cb087e309b312fdf, type: 2}
+  m_PrefabInternal: {fileID: 1736501199}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2135136271}
+  - component: {fileID: 2135136270}
+  m_Layer: 0
+  m_Name: Bowie_Knife (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &2135136270
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9593342, guid: 95077ac1a27428f4cb087e309b312fdf,
+    type: 2}
+  m_PrefabInternal: {fileID: 1736501199}
+  m_GameObject: {fileID: 2135136269}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 3a5c3b84fb58690419b53811ad02eaa6, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!4 &2135136271
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 413496, guid: 95077ac1a27428f4cb087e309b312fdf, type: 2}
+  m_PrefabInternal: {fileID: 1736501199}
+  m_GameObject: {fileID: 2135136269}
+  m_LocalRotation: {x: 0.7071067, y: -5.684342e-14, z: -5.684342e-14, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0.435, z: 0}
+  m_LocalScale: {x: 4.0951185, y: 4.095118, z: 4.095118}
+  m_Children:
+  - {fileID: 214145206}
+  - {fileID: 818467350}
+  - {fileID: 1192576339}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

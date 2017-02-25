@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: ffece371428d01e4c9ea7373246cfa0c
+timeCreated: 1442933663
+licenseType: Store
+TrueTypeFontImporter:
+  serializedVersion: 2
+  fontSize: 100
+  forceTextureCase: 1
+  characterSpacing: 1
+  characterPadding: 0
+  includeFontData: 1
+  use2xBehaviour: 0
+  fontNames: []
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  userData: 
+  assetBundleName: sm fairytale capital
+  assetBundleVariant: font

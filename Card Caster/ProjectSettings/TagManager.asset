@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Wall
+  - Bullet
+  - healthPickup
+  - enemyBullet
+  - Enemy
+  - SHOOTME
+  - heartPickup
+  - Headshot
+  - cardPickup
+  - Quit
+  - knife
+  - loadPanel
+  - mainPanel
+  - redKey
+  - greenKey
+  - blackKey
+  - greenKeyPic
+  - redKeyPic
+  - blackKeyPic
+  - redDoor
+  - greenDoor
+  - blackDoor
+  - heart
+  - Secret
+  - bossDoor
+  - Resume
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - card
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
